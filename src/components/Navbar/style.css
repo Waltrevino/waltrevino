@@ -1,0 +1,29 @@
+#nav-container {
+  display: flex;
+  position: relative;
+}
+
+#menu {
+  align-self: center;
+  scale: 1.5;
+}
+
+#logo-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+#nav-logo {
+
+ 
+}
+
+#search-bar {
+
+ align-self: center;
+ padding-right: .5em;
+
+  scale: 1.5;
+}
