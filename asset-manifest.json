@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/waltrevino/static/css/main.d3b8e3c1.css",
-    "main.js": "/waltrevino/static/js/main.bc25bb05.js",
+    "main.css": "/waltrevino/static/css/main.b2c37c81.css",
+    "main.js": "/waltrevino/static/js/main.9132764c.js",
     "static/js/787.f171be6b.chunk.js": "/waltrevino/static/js/787.f171be6b.chunk.js",
     "static/media/i-logo.svg": "/waltrevino/static/media/i-logo.50b4b451763ae9738376245fad5b5cf6.svg",
     "index.html": "/waltrevino/index.html",
-    "main.d3b8e3c1.css.map": "/waltrevino/static/css/main.d3b8e3c1.css.map",
-    "main.bc25bb05.js.map": "/waltrevino/static/js/main.bc25bb05.js.map",
+    "main.b2c37c81.css.map": "/waltrevino/static/css/main.b2c37c81.css.map",
+    "main.9132764c.js.map": "/waltrevino/static/js/main.9132764c.js.map",
     "787.f171be6b.chunk.js.map": "/waltrevino/static/js/787.f171be6b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3b8e3c1.css",
-    "static/js/main.bc25bb05.js"
+    "static/css/main.b2c37c81.css",
+    "static/js/main.9132764c.js"
   ]
 }
