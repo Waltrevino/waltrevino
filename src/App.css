@@ -43,11 +43,11 @@ a {
   border-radius: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .home-logo {
     animation: home-logo-spin infinite 5s linear;
   }
-}
+} */
 
 #home-wrapper {
   text-align: center;

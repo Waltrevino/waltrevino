@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../i-logo.svg';
+import logo from '../i-logo.gif';
 import '../App.css';
 import {TbAperture} from "react-icons/tb"
 
