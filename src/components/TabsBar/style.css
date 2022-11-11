@@ -26,6 +26,6 @@
 
 }
 
-.tab1 {
-  background-color: lightgray;
+.active-tab {
+  background-color: rgb(132,23,25);
 }

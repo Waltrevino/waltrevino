@@ -1,1 +1,2 @@
 "homepage": "http://waltrevino.com"
+"homepage": "https://gitname.github.io/waltrevino"

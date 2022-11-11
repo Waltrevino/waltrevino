@@ -1,0 +1,37 @@
+
+.login-wrapper {
+  /* border: red solid 102px; */
+  background: lightblue;
+  width: 400px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.login-container {
+  /* position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+display: flex;
+align-items: center;
+justify-content: center;
+border: solid red;
+height: 100%;
+
+ 
+  
+}
+
+.login-container > div {
+  border: solid yellow;
+ display: inline-block;
+ 
+  
+}
+
+button {
+  border: red solid;
+}

@@ -1,29 +1,39 @@
-#nav-container {
-  display: flex;
-  position: relative;
+#navbar-wrapper {
+  /* border: solid yellow 2px;   */
+  
 }
 
-#menu {
-  align-self: center;
-  scale: 1.5;
+#navbar-container {
+  /* border: solid red 5px; */
+ 
 }
 
-#logo-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+#navbar-container div {
+  /* border: solid red 1px; */
+  display: inline-block;
+  
 }
 
+#login-wrapper {
+
+}
+
+#menu {}
+
+.waltrevino-logo-container {
+
+background-color: yellow;
+position: absolute;
+left: 50%;
+transform: translate(-50%, 0%);
+
+}
 
 #nav-logo {
-
  
 }
 
 #search-bar {
-
- align-self: center;
- padding-right: .5em;
-
-  scale: 1.5;
+  position: absolute;
+  right: 2%;
 }

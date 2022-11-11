@@ -1,0 +1,9 @@
+.inputOutput > * {
+  width: 75px;
+  border: solid red 1px;
+}
+
+label {
+  display: inline-block;
+  text-align: center;
+}

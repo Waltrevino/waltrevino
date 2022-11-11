@@ -6,15 +6,15 @@ import {TbAperture} from "react-icons/tb"
 
 function Home(){
   return(
-    <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+    <div id="home-wrapper">
+    <header id="home-container">
+      <img src={logo} className="home-logo" alt="logo" />
       {/* <TbAperture className='App-logo' /> */}
       <p>
         Mi Pinche React App
       </p>
       <a
-        className="App-link"
+        className=""
         href="https://www.becker.com/"
         target="_blank"
         rel="noopener noreferrer"
