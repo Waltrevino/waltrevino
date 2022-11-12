@@ -1,5 +1,6 @@
 #navbar-wrapper {
-  /* border: solid yellow 2px;   */
+  background-color: var(--crimson-color);
+  color: var(--cream-color);
   
 }
 
@@ -14,22 +15,16 @@
   
 }
 
-#login-wrapper {
-
-}
-
-#menu {}
-
 .waltrevino-logo-container {
-
-background-color: yellow;
-position: absolute;
-left: 50%;
-transform: translate(-50%, 0%);
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  
 
 }
 
 #nav-logo {
+ font-family: 'Roboto', sans-serif;
  
 }
 

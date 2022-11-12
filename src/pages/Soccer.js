@@ -1,12 +1,28 @@
-import React from "react";
-// https://www.npmjs.com/package/react-iframe
-import Iframe from 'react-iframe'
+import React from 'react';
+import logo from '../i-logo.gif';
+import '../App.css';
+import {TbAperture} from "react-icons/tb"
+
 
 function Soccer(){
-  return (
-    <div className="border-red">
-      <Iframe id="display-page-container" url="http://www.vivaperros.org" width="100%" position="absolute" styles={{height: "100%"}}/>
-    </div>  
+  return(
+    <div id="home-wrapper">
+    <header id="home-container">
+      <img src={logo} className="soccer-logo" alt="logo" />
+      {/* <TbAperture className='App-logo' /> */}
+      <p>
+        Wanna check out the World Cup?
+      </p>
+      <a
+        className=""
+        href="https://www.fifa.com/fifaplus/en/tournaments/mens/worldcup/qatar2022"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Lets go!...
+      </a>
+    </header>
+  </div>
   )
 }
 

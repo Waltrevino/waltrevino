@@ -37,17 +37,17 @@ function TabsBar(props) {
         <Link
           className={props.page === "soccer" ? "active-tab tab tab4" : "tab tab4"} to="/soccer" onClick={() => props.Activate("soccer")}>Soccer
         </Link>
-        <Link
+        {/* <Link
           className={props.page === "waltrevino" ? "active-tab tab tab4" : "tab tab4"} onClick={() => props.Activate("waltrevino")} >Waltrevino
         </Link>
         <Link
           className={props.page === "resources" ? "active-tab tab tab4" : "tab tab4"} onClick={() => props.Activate("resources")}>Resources
+        </Link> */}
+        <Link
+          className={props.page === "google" ? "active-tab tab tab4" : "tab tab4"} to="/google" onClick={() => props.Activate("google")}>Google
         </Link>
         <Link
-          className={props.page === "google" ? "active-tab tab tab4" : "tab tab4"} onClick={() => props.Activate("google")}>Google
-        </Link>
-        <Link
-          className={props.page === "shelter" ? "active-tab tab tab4" : "tab tab4"} onClick={() => props.Activate("shelter")}>Dog Shelters
+          className={props.page === "shelter" ? "active-tab tab tab4" : "tab tab4"} to="/shelter" onClick={() => props.Activate("shelter")}>Dog Shelters
         </Link>
 
       </div>

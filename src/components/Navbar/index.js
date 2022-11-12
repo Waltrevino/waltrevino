@@ -14,7 +14,7 @@ function Navbar() {
         </div>
 
         <div className='waltrevino-logo-container'>
-          <Link id="nav-logo" to="./canvas">w a l t r e v i n o</Link>
+          <Link id="nav-logo" to="./canvas">{"< W a l t r e v i n o />" }</Link>
         </div>
         
         <div id='search-bar'><BsSearch /></div>

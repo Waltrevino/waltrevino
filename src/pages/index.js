@@ -11,31 +11,10 @@ import Portfolio from "./Portfolio.js";
 import Navbar from "../components/Navbar/index.js";
 import TabsBar from "../components/TabsBar/index.js";
 import '../App.css'
+import DogShelter from "./DogShelter.js";
+import Google from "./Google.js";
 
 class DisplayPage extends React.Component {
-
-  // state = {
-  //   currentPage: "/"
-  // }
-
-  // ActivatePage = url => {
-  //   this.setState({ currentPage: url });
-  // }
-
-  // WhoClicked = (event) => {
-  //   const algo = event.target.attributes.getNamedItem("yyy").value
-  //   console.log(algo)
-  // }
-
-  // DisplayHomePage = () => {
-  //   if (this.state.currentPage === "/") {
-  //     return (
-  //       <div>
-  //         <Home />
-  //       </div>
-  //     )
-  //   }
-  // }
 
   render() {
     return (
@@ -50,6 +29,8 @@ class DisplayPage extends React.Component {
           <Route path="/vivaperros" element={<VivaPerros />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/soccer" element={<Soccer />} />
+          <Route path="/google" element={<Google />} />
+          <Route path="/shelter" element={<DogShelter />} />
           <Route path="/login" element={<Login />} />
         </Routes>
       </div>

@@ -1,28 +1,21 @@
 import React from 'react'
 import './styles.css'
 
-const styles = {
-  input: {
-    // border: "solid red 2px",
-    background: "red",
-    marginLeft: ".5em"
-  },
-  label: {
-    background: "#e8eaf6",
-    // border: "solid red 1px",
-    display: "inline-block",
-    width: "75px"
-  }
-};
-
 function Login(props) {
   return (
     <div className='login-wrapper' >
       <div className='login-container'>
         <div>
-          <label style={styles.label} for="username">username</label><input style={styles.input} className='' id="username" name="username" type="text" /><br />
-          <label style={styles.label} for="password">password</label><input style={styles.input} className='' id="password" name="password" type="text" />
+          <div>
+          <label for="username" className=''>username</label><input className='input' id="username" name="username" type="text" placeholder='Enter your username and'/>
+          </div>
+          
+          <div>
+          <label for="password" className='label'>password</label><input className='input' id="password" name="password" type="password" placeholder='Password'/>
+          </div>
+          <div>
           <button>Sign In</button>
+          </div>
         </div>
       </div>
     </div>

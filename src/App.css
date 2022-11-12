@@ -1,7 +1,14 @@
+:root {
+  --crimson-color: rgb(132, 23, 25);
+  --cream-color: rgb(253, 249, 216);
+
+}
+
 body {
   animation: fadeInPage ease 1s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
+  background-color: black;
   /* height: 100%;
   flex-direction: column;
   display: flex; */
@@ -22,11 +29,13 @@ a {
 .app-wrapper {
   /* border: solid rgb(132,23,25) 8px; */
   height: 100%;
+  
 }
 
 .app-container {
- 
+ background-color: black;
   width: 100%;
+  
 
   
 }
@@ -43,11 +52,11 @@ a {
   border-radius: 50%;
 }
 
-/* @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
   .home-logo {
     animation: home-logo-spin infinite 5s linear;
   }
-} */
+}
 
 #home-wrapper {
   text-align: center;
