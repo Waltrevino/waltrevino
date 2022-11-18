@@ -1,0 +1,27 @@
+.table-wrapper {
+  /* background-color: blue; */
+  width: 100%;
+
+  /* border: solid yellow 10px; */
+}
+
+.table-container {
+  table-layout: fixed;
+  width: 100%;
+  /* border: solid red 15px; */
+}
+
+.table-content {
+ 
+
+}
+
+tr {
+
+}
+
+td {
+  word-break: break-all;
+  text-align: left;
+  
+}

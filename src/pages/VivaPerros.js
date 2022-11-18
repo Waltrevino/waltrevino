@@ -4,8 +4,10 @@ import Iframe from 'react-iframe'
 
 function VivaPerros(){
   return (
-    <div className="border-red">
-      <Iframe id="display-page-container" url="http://www.vivaperros.org" width="100%" position="absolute" styles={{height: "100%"}}/>
+    <div className="page-wrapper">
+      <div className="page-container max-height">
+      <Iframe className="iframe" url="http://www.vivaperros.org" style  />
+      </div>
     </div>  
   )
 }

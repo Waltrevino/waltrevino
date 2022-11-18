@@ -14,5 +14,10 @@ export default {
   qry: function() {
     return fetch('https://jsonplaceholder.typicode.com/photos')
       .then(res => res.json())
+  },
+
+  getPerro: () => {
+    return axios.get('https://dog.ceo/api/breeds/image/random')
   }
+
 }

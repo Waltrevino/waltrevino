@@ -2,12 +2,16 @@ import React from "react";
 // https://www.npmjs.com/package/react-iframe
 import Iframe from 'react-iframe'
 
-function Soccer(){
+function DogShelter() {
   return (
-    <div className="border-red">
-      <Iframe id="display-page-container" url="https://www.tulsaspca.org/" width="100%" position="absolute" styles={{height: "100%"}}/>
-    </div>  
+
+    <div className="page-wrapper">
+      <div className="page-container max-height">
+        <Iframe className="iframe" url="https://www.tulsaspca.org/" style />
+      </div>
+    </div>
   )
+
 }
 
-export default Soccer;
+export default DogShelter;

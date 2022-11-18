@@ -21,7 +21,7 @@ function TabsBar(props) {
   const location = useLocation();
 
   return (
-    <div className="wrapper">
+    <div className="tabs-wrapper">
       <div className="container">
         <Link
           className={location.pathname === "/home" ? "active-tab tab tab1" : "tab tab1"} to="/home" onClick={() => props.Activate("home")}>Home
@@ -48,6 +48,9 @@ function TabsBar(props) {
         </Link>
         <Link
           className={props.page === "shelter" ? "active-tab tab tab4" : "tab tab4"} to="/shelter" onClick={() => props.Activate("shelter")}>Dog Shelters
+        </Link>
+        <Link
+          className={props.page === "games" ? "active-tab tab tab4" : "tab tab4"} to="/games" onClick={() => props.Activate("games")}>Games
         </Link>
 
       </div>

@@ -6,10 +6,12 @@ import {TbAperture} from "react-icons/tb"
 
 function Soccer(){
   return(
-    <div id="home-wrapper">
-    <header id="home-container">
+    <div className="page-wrapper" >
+    <div className="page-container max-height">
+      <div>
       <img src={logo} className="soccer-logo" alt="logo" />
       {/* <TbAperture className='App-logo' /> */}
+      </div>
       <p>
         Wanna check out the World Cup?
       </p>
@@ -21,7 +23,7 @@ function Soccer(){
       >
         Lets go!...
       </a>
-    </header>
+    </div>
   </div>
   )
 }

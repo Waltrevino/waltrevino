@@ -1,7 +1,7 @@
 #navbar-wrapper {
   background-color: var(--crimson-color);
   color: var(--cream-color);
-  
+  padding-bottom: .25em;
 }
 
 #navbar-container {
@@ -15,6 +15,11 @@
   
 }
 
+#menu {
+ /* margin-left: 5em; */
+}
+
+
 .waltrevino-logo-container {
   position: absolute;
   left: 50%;
@@ -25,10 +30,11 @@
 
 #nav-logo {
  font-family: 'Roboto', sans-serif;
- 
+ font-size: 1.2em;
 }
 
 #search-bar {
   position: absolute;
-  right: 2%;
+  top: .7em;
+  right: 5%;
 }

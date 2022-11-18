@@ -5,14 +5,6 @@ import './styles.css'
 import API from "../utils/API";
 import MyWorkspace from "../components/MyWorkspace";
 
-// function Canvas(){
-//   return (
-//     <Table users={users}/>
-//   )
-// }
-
-// export default Canvas;
-
 class Canvas extends React.Component {
 
   state = {
@@ -65,40 +57,43 @@ class Canvas extends React.Component {
 
   render() {
     return (
-      <div className="canvas-wrapper">
+      <div className="page-wrapper">
+        <div className="page-container max-height">
+          <div className="page-content iframe">
 
-        <Table users={this.state.users} />
+            <Table users={this.state.users} />
 
-        <div className="inputOutput">
-          <button onClick={this.HandleClick} name="minus"> Down </button>
-          <label>{this.state.count}</label>
-          <button onClick={this.HandleClick} name="plus"> Up </button>
+            <div className="inputOutput">
+              <button onClick={this.HandleClick} name="minus"> Down </button>
+              <label>{this.state.count}</label>
+              <button onClick={this.HandleClick} name="plus"> Up </button>
+            </div>
+
+            <form style={{ border: "solid green 2px" }}>
+              <label>Username</label>
+              <input
+                value={this.state.username}
+                name="username"
+                onChange={this.HandleChange}
+                placeholder="username"
+              />
+
+              <label>Password</label><input
+                name="password"
+                value={this.state.password}
+                onChange={this.HandleChange}
+                placeholder="password"
+                type="password"
+              />
+            </form>
+
+            <div>MY USERNAME IS {this.state.username} AND PASSWORD IS {this.state.password}</div>
+
+            <MyWorkspace />
+          </div>
         </div>
-
-        <form style={{ border: "solid green 2px" }}>
-          <label>Username</label>
-          <input
-            value={this.state.username}
-            name="username"
-            onChange={this.HandleChange}
-            placeholder="username"
-          />
-
-          <label>Password</label><input
-            name="password"
-            value={this.state.password}
-            onChange={this.HandleChange}
-            placeholder="password"
-            type="password"
-          />
-        </form>
-        
-        <div>MY USERNAME IS {this.state.username} AND PASSWORD IS {this.state.password}</div>
-
-        <MyWorkspace />
-
       </div>
-       
+
     )
   }
 

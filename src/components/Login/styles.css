@@ -4,11 +4,20 @@
   color: var(--crimson-color);
   width: 400px;
   height: 250px;
-  position: absolute;
+  /* position: absolute;
+  left: 50%;
+  top: 50%;home-logo
+  transform: translate(-50%, -50%);
+   */
+  position: relative;
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 50%);
+  /* transition: width 2s; */
+}
 
+.login-wrapper:hover {
+  /* width: 800px; */
 }
 
 .login-container {
@@ -24,14 +33,15 @@ margin-bottom: .25em;
 }
 
 button {
-  background-color: var(--cream-color);
+
   float: right;
-  border-radius: 8%;
+  /* border-radius: 8%; */
   width: 100px;
+
 }
 
   .input {
-    border-radius: 8%;
+    /* border-radius: 8%; */
    
   }
 

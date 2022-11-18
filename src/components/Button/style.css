@@ -1,0 +1,19 @@
+.wrapper {
+
+  
+}
+
+button {
+  /* background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); */
+  width: 100%;
+  padding: 0 .5em;
+  margin: .1em 0;
+  animation: loading 0.8s infinite;
+  
+}
+
+@keyframes loading {
+  100% {
+   
+  }
+}

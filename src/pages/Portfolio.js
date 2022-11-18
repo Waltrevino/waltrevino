@@ -3,8 +3,10 @@ import Iframe from "react-iframe";
 
 function Portfolio(){
   return (
-    <div className="border-red">
-      <Iframe id="display-page-container" url="https://waltrevino.github.io/react_portfolio/" width="100%" position="absolute" styles={{height: "100%"}}/>
+    <div className="page-wrapper">
+      <div className="page-container max-height">
+      <Iframe className="iframe" url="https://waltrevino.github.io/react_portfolio/" />
+      </div>
     </div>  
   )  
 }

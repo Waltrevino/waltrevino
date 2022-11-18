@@ -4,9 +4,12 @@ import Iframe from 'react-iframe'
 
 function Google(){
   return (
-    <div className="border-red">
-      <Iframe id="display-page-container" url="https://www.google.com/" width="100%" position="absolute" styles={{height: "100%"}}/>
-    </div>  
+
+        <div className="page-wrapper">
+        <div className="page-container max-height">
+        <Iframe className="iframe" url="https://www.google.com/" style  />
+        </div>
+      </div>  
   )
 }
 

@@ -10,6 +10,7 @@ import Soccer from './pages/Soccer';
 import { BsJournalPlus } from 'react-icons/bs';
 import DisplayPage from './pages';
 import React from 'react';
+import Footer from './components/Footer';
 
 class App extends React.Component {
   state = {
@@ -35,15 +36,20 @@ class App extends React.Component {
     }
   }
 
-render() {
-  return (
-    <div className="app-wrapper">
-      <Navbar />
-      <TabsBar page={this.state.currentPage} Activate={this.ActivatePage}  WhoClicked={this.WhoClicked}/>
-      <DISPLAY_PAGE />
-    </div>
-  )
-}
+  render() {
+    return (
+      <div className="app-wrapper">
+        <div className='app-container'>
+          <div className='app-content'>
+            <Navbar />
+            <TabsBar page={this.state.currentPage} Activate={this.ActivatePage} WhoClicked={this.WhoClicked} />
+            <DISPLAY_PAGE />
+            <Footer />
+          </div>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default App;
