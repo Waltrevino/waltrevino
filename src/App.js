@@ -38,12 +38,12 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="app-wrapper">
-        <div className='app-container'>
-          <div className='app-content'>
+      <div className="app-wrapper rojo">
+        <div className='app-container verde'>
+          <div className='app-content azul'>
             <Navbar />
             <TabsBar page={this.state.currentPage} Activate={this.ActivatePage} WhoClicked={this.WhoClicked} />
-            <DISPLAY_PAGE />
+            <DISPLAY_PAGE />       
             <Footer />
           </div>
         </div>

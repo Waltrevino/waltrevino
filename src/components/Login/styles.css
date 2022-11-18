@@ -1,55 +1,38 @@
 .login-wrapper {
-  /* border: red solid 102px; */
-  background:var(--crimson-color);
+  background: var(--crimson-color);
   color: var(--crimson-color);
   width: 400px;
   height: 250px;
-  /* position: absolute;
-  left: 50%;
-  top: 50%;home-logo
-  transform: translate(-50%, -50%);
-   */
   position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, 50%);
-  /* transition: width 2s; */
 }
 
-.login-wrapper:hover {
-  /* width: 800px; */
-}
+.login-wrapper:hover {}
 
 .login-container {
-display: flex;
-align-items: center;
-justify-content: center;
-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 }
 
-.login-container > div > div {
- /* display: inline-block; */
-margin-bottom: .25em;
+.login-container>div>div {
+  margin-bottom: .25em;
 }
 
 button {
-
   float: right;
-  /* border-radius: 8%; */
   width: 100px;
-
 }
 
-  .input {
-    /* border-radius: 8%; */
-   
-  }
+.input {}
 
-  label {
-    /* background: "#e8eaf6"; */
-    display: "inline-block";
-   width: 75px;
-    background-color: var(--cream-color);
-    margin-right: .25em;
-    border-radius: 8%;
-  }
+label {
+  display: "inline-block";
+  width: 75px;
+  background-color: var(--cream-color);
+  margin-right: .25em;
+  border-radius: 8%;
+}

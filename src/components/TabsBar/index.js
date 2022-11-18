@@ -6,17 +6,6 @@ import { Link, useLocation } from 'react-router-dom';
 
 
 function TabsBar(props) {
-  // constructor(props){
-  // super(props); 
-
-  // this.state = {
-  //   currentPage: "/home"
-  // };
-  // }
-
-  // HandleClick = url => {
-  //   this.setState({currentPage: url})
-  // }
 
   const location = useLocation();
 
@@ -26,8 +15,6 @@ function TabsBar(props) {
         <Link
           className={location.pathname === "/home" ? "active-tab tab tab1" : "tab tab1"} to="/home" onClick={() => props.Activate("home")}>Home
         </Link>
-        {/* <div className="tab tab2 outline-double outline-3 outline-offset-2 text-3xl font-bold double">Viva Perros</div> */}
-
         <Link
           className={props.page === "vivaperros" ? "active-tab tab tab4" : "tab tab2"} to="/vivaperros" onClick={() => props.Activate("vivaperros")}>Viva Perros
         </Link>
@@ -51,6 +38,9 @@ function TabsBar(props) {
         </Link>
         <Link
           className={props.page === "games" ? "active-tab tab tab4" : "tab tab4"} to="/games" onClick={() => props.Activate("games")}>Games
+        </Link>
+        <Link
+          className={props.page === "mercado" ? "active-tab tab tab4" : "tab tab4"} to="/mercado" onClick={() => props.Activate("mercado")}>Mercado
         </Link>
 
       </div>

@@ -22,11 +22,8 @@
  }
 
 .container > .tab {
-  /* width: 100px;
-  background-color: grey; */
   padding-left: 1em;
   padding-right: 1em;
-
 }
 
 .active-tab {

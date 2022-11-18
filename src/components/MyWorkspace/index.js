@@ -10,8 +10,6 @@ class MyWorkspace extends React.Component {
     count: 0
   }
 
-
-
   reverseName = str => {
     return str.split("").reverse().join("");
   }
@@ -58,11 +56,9 @@ class MyWorkspace extends React.Component {
         <button id="si" style={{width: "100px", background: "red", align: "right"}} onClick={this.HandleYesNo}>
           SI
         </button>
-
       </div>
     )
   }
-
 
 }
 

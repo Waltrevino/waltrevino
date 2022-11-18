@@ -4,28 +4,18 @@
   padding-bottom: .25em;
 }
 
-#navbar-container {
-  /* border: solid red 5px; */
- 
-}
+#navbar-container {}
 
 #navbar-container div {
-  /* border: solid red 1px; */
-  display: inline-block;
-  
+  display: inline-block;  
 }
 
-#menu {
- /* margin-left: 5em; */
-}
-
+#menu {}
 
 .waltrevino-logo-container {
   position: absolute;
   left: 50%;
   transform: translate(-50%, 0%);
-  
-
 }
 
 #nav-logo {

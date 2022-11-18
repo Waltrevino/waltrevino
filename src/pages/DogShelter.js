@@ -11,7 +11,6 @@ function DogShelter() {
       </div>
     </div>
   )
-
 }
 
 export default DogShelter;

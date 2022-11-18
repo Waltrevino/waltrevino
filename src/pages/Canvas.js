@@ -16,8 +16,6 @@ class Canvas extends React.Component {
 
   componentDidMount() {
     // this.runQuery()
-    // console.log(usersxx)
-
   }
 
   runQuery = () => {
@@ -96,8 +94,6 @@ class Canvas extends React.Component {
 
     )
   }
-
-
 
 }
 

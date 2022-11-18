@@ -12,9 +12,8 @@ function Home() {
       <div className='page-container max-height'>
         <div className='page-content no-scroll'>
           <div className='home-logo-content'>
-            {/* <img src={logo} className="home-logo" alt="logo" /> */}
+            
             <img src={wheel} className="home-logo" alt="logo" />
-            {/* <TbAperture className='App-logo' /> */}
           </div>
           <p>
             Mi Pinche React App

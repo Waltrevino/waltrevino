@@ -1,15 +1,21 @@
-.wrapper {
+.button-wrapper {
+  border: solid red 1px;
+  width: 30%;
+}
 
-  
+.button-container {
+  border: solid green 1px;
+  height: 100%;
 }
 
 button {
   /* background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); */
-  width: 100%;
   padding: 0 .5em;
-  margin: .1em 0;
+  margin: .1em 0; 
   animation: loading 0.8s infinite;
-  
+  border: solid blue 1px;
+  width: 100%;
+  background-color: var(--crimson-color);
 }
 
 @keyframes loading {

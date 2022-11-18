@@ -21,11 +21,10 @@ function CanvasDOS(){
       })
   }
 
-{console.log(dog)}
   return (
     <div className="page-wrapper">
     <div className="page-container max-height">
-      <div className="page-content iframe canvasDOS">
+      <div className="page-content canvasDOS">
       {/* <button onClick={() => getPerro()}>Get Next Img</button> */}
       <Button perro={getPerro}/>
       <img src={dog.message} alt="" />
@@ -33,8 +32,6 @@ function CanvasDOS(){
     </div>
   </div>
   )
-
-
 
 }
 
